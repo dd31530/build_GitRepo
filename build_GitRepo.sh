@@ -90,6 +90,8 @@ git push -u origin master
 LOCAL_USER=$(whoami)
 LOCAL_WD=$(pwd)
 LOCAL_SYSTEM=$(uname -a)
+# REMOTE_USER doit etre positionné au nom
+# d'utilisateur sur GitHub
 REMOTE_USER=dd31530
 
 
