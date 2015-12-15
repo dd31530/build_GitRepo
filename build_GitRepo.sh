@@ -76,7 +76,6 @@ MESSAGE="initialisation $REPO; ajout README.md"
 echo $MESSAGE
 cd $LOCAL_WD/$REPO
 git add README.md
-git add init.log
 git commit -m "$MESSAGE"
 git remote add origin git@github.com:$REMOTE_USER/${REPO}.git
 git push -u origin master
